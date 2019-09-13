@@ -8,9 +8,7 @@
 <url> <loc>https://prasans.info/blog-gatsby/tweaking-intellij-appearance-to-look-cool-in-ubuntu/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/send-your-mail-later/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/hadoop-version-in-aws-map-reduce/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/sax-parser-characters-method/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/ftp-client-ubuntu/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/add-edittexts-dynamically-and-retrieve-values-android/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/install-custom-jar-files-in-samsung-corby-pro/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/test-your-controllers-modelattribute-methods/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/stop-halting-at-assertions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -18,8 +16,6 @@
 <url> <loc>https://prasans.info/blog-gatsby/primary-key-onetoone-mapping-in-hibernate/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/wiring-android-wheel-widget-into-your-application/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/my-first-windows-7-theme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/configuring-context-name-for-an-applicationtomcat-war/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/reloading-an-activity-in-android/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/running-windows-8-on-vm-on-mac-lion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/make_ntfs_write_mac_lion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/writing-custom-tags-for-jstls/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -40,23 +36,27 @@
 <url> <loc>https://prasans.info/blog-gatsby/integrating-netflix-hystrix-to-a-spring-application/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/add_ckeditor_to_rails_pipeline/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/deploying-jekyll-blog-through-rake-script/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/making-https-call-using-apache-httpclient/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/expanding_amazon_ebs_volumes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/url_generation_error_after_upgrading_rails/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/capistrano_set_deployed_revision/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/card_slider_using_css3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/store_function_inside_redux_store/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/expire_session_after_timeout_spring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/angular_resource_and_interceptors/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/jest_test_toLocaleString_javasscript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/blog-gatsby/use flyway with leiningen/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/using-network-call-in-react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/start-nginx-when-upstream-unavailable/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/add-redux-middleware-dynamically/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/soap-call-in-clojure-compojure-with-saaj/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/post_errors_to_an_endpoint_angular/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/success/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/use flyway with leiningen/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/card_slider_using_css3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/store_function_inside_redux_store/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/jest_test_toLocaleString_javasscript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/me/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/add-edittexts-dynamically-and-retrieve-values-android/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/making-https-call-using-apache-httpclient/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/expire_session_after_timeout_spring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/reloading-an-activity-in-android/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/sax-parser-characters-method/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/blog-gatsby/configuring-context-name-for-an-applicationtomcat-war/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/blog-gatsby/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
