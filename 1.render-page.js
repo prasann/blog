@@ -157,7 +157,7 @@ exports.modules = {
 	    return _react2.default.createElement(
 	      "aside",
 	      {
-	        className: classes.infoBox + " " + (navigatorPosition ? navigatorPosition : "") + " \n        " + (navigatorShape ? navigatorShape : "")
+	        className: classes.infoBox + " " + (navigatorPosition ? navigatorPosition : "") + "\n        " + (navigatorShape ? navigatorShape : "")
 	      },
 	      info && _react2.default.createElement(_InfoHeader2.default, {
 	        info: info,
@@ -169,8 +169,7 @@ exports.modules = {
 	        { className: classes.wrapper },
 	        info && _react2.default.createElement(_InfoText2.default, { info: info }),
 	        _react2.default.createElement(_SocialIcons2.default, null),
-	        pages && _react2.default.createElement(_InfoMenu2.default, { pages: pages, linkOnClick: this.menulinkOnClick }),
-	        _react2.default.createElement(_StackIcons2.default, null)
+	        pages && _react2.default.createElement(_InfoMenu2.default, { pages: pages, linkOnClick: this.menulinkOnClick })
 	      )
 	    );
 	  };
