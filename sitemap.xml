@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://prasans.info/first-post/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/test-smtp-server/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/enabling-yahoo-accounts-on-ubuntu/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/install-inconsolata-ttf-in-ubuntujaunty/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/enabling-yahoo-accounts-on-ubuntu/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/tweaking-intellij-appearance-to-look-cool-in-ubuntu/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/printing-multiple-divs-in-a-page/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/send-your-mail-later/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -20,8 +20,8 @@
 <url> <loc>https://prasans.info/my-first-windows-7-theme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/configuring-context-name-for-an-applicationtomcat-war/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/reloading-an-activity-in-android/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasans.info/slot-machine-effect-jquery/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/writing-custom-tags-for-jstls/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/slot-machine-effect-jquery/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/running-windows-8-on-vm-on-mac-lion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/make_ntfs_write_mac_lion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/handle-maxuploadsizeexceededexception-spring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -58,6 +58,7 @@
 <url> <loc>https://prasans.info/centralized-error-handling-express/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/ace-with-react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/castle-gorge-hiking-with-jhc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasans.info/scaling-applications-using-microfrontends/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/me/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/talks/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasans.info/success/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

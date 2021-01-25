@@ -53,8 +53,8 @@
       "path---running-windows-8-on-vm-on-mac-lion-e86be63b65cf09b92b89.js.map"
     ],
     "path---": [
-      "path----acdcd45ff78864049231.js",
-      "path----acdcd45ff78864049231.js.map"
+      "path----ad737e472e417ef28d09.js",
+      "path----ad737e472e417ef28d09.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-5ad8d0de8e7fee7610b7.js",
@@ -113,8 +113,8 @@
       "path---reloading-an-activity-in-android-e5f06cd204ef48318b58.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-5363a7b1ee99053281ee.js",
-      "component---src-layouts-index-js-5363a7b1ee99053281ee.js.map"
+      "component---src-layouts-index-js-4c5e3f2b546021e68804.js",
+      "component---src-layouts-index-js-4c5e3f2b546021e68804.js.map"
     ],
     "path---primary-key-onetoone-mapping-in-hibernate": [
       "path---primary-key-onetoone-mapping-in-hibernate-5fb244d1e0083520ed1c.js",
@@ -218,6 +218,10 @@
       "path---card-slider-using-css-3-1d9678a99ecc04654e18.js",
       "path---card-slider-using-css-3-1d9678a99ecc04654e18.js.map"
     ],
+    "path---scaling-applications-using-microfrontends": [
+      "path---scaling-applications-using-microfrontends-9849d92b682100e0beb4.js",
+      "path---scaling-applications-using-microfrontends-9849d92b682100e0beb4.js.map"
+    ],
     "path---talks": [
       "path---talks-329032b17033c3a53473.js",
       "path---talks-329032b17033c3a53473.js.map"
@@ -247,9 +251,9 @@
       "path---logging-in-golang-projects-514d8bc204da02c9feb8.js.map"
     ],
     "app": [
-      "app-ee2ae3e87ac138cba692.js",
+      "app-6c000e005cb9d3ad94d1.js",
       "build-js-styles.css",
-      "app-ee2ae3e87ac138cba692.js.map",
+      "app-6c000e005cb9d3ad94d1.js.map",
       "build-js-styles.css.map"
     ],
     "path---cross-site-http-requests": [
