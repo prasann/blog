@@ -219,8 +219,8 @@
       "path---card-slider-using-css-3-1d9678a99ecc04654e18.js.map"
     ],
     "path---scaling-applications-using-microfrontends": [
-      "path---scaling-applications-using-microfrontends-9849d92b682100e0beb4.js",
-      "path---scaling-applications-using-microfrontends-9849d92b682100e0beb4.js.map"
+      "path---scaling-applications-using-microfrontends-bdb3ea412a3f7a7cb3a1.js",
+      "path---scaling-applications-using-microfrontends-bdb3ea412a3f7a7cb3a1.js.map"
     ],
     "path---talks": [
       "path---talks-329032b17033c3a53473.js",
@@ -251,9 +251,9 @@
       "path---logging-in-golang-projects-514d8bc204da02c9feb8.js.map"
     ],
     "app": [
-      "app-6c000e005cb9d3ad94d1.js",
+      "app-1b26e301d230b34bfa13.js",
       "build-js-styles.css",
-      "app-6c000e005cb9d3ad94d1.js.map",
+      "app-1b26e301d230b34bfa13.js.map",
       "build-js-styles.css.map"
     ],
     "path---cross-site-http-requests": [

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Random Presence]]></title><description><![CDATA[Random presence of my thoughts and learning...]]></description><link>https://prasans.info</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Jan 2021 19:28:04 GMT</lastBuildDate><item><title><![CDATA[Scaling Applications Using Micro-Frontends]]></title><description><![CDATA[Cross posted from  Archimydes blog This blog post is a summary of a presentation that I made at the Archimydes Mastermind Event that…]]></description><link>https://prasans.info/scaling-applications-using-microfrontends/</link><guid isPermaLink="false">https://prasans.info/scaling-applications-using-microfrontends/</guid><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Random Presence]]></title><description><![CDATA[Random presence of my thoughts and learning...]]></description><link>https://prasans.info</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Jan 2021 19:38:29 GMT</lastBuildDate><item><title><![CDATA[Scaling Applications Using Micro-Frontends]]></title><description><![CDATA[Cross posted from  Archimydes blog This blog post is a summary of a presentation that I made at the Archimydes Mastermind Event that…]]></description><link>https://prasans.info/scaling-applications-using-microfrontends/</link><guid isPermaLink="false">https://prasans.info/scaling-applications-using-microfrontends/</guid><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Cross posted from &lt;a href=&quot;https://archimydes.dev/fourthact/blog/scaling-applications-using-micro-frontends&quot;&gt;Archimydes blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;This blog post is a summary of a presentation that I made at the Archimydes Mastermind Event that happened on 17th Dec 2020.&lt;/p&gt;
@@ -6,7 +6,40 @@
 &lt;p&gt;With so many choices for frameworks and programming paradigms, building a consistent Frontend to scale is a challenging problem to solve. We cover ways in which you can scale your Frontend application and your development teams by using a Micro-Frontends design pattern.&lt;/p&gt;
 &lt;p&gt;I’ll start by introducing the pattern of Micro-frontends first. Then we’ll be looking into some of the key decisions that need to be taken while starting a Micro-frontend project. Finally, we will see the circumstances where this pattern will be effective.&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;1. Scaling Applications&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/t05e2wbqpej8kmbsokwu.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Twitter_post_-_1-dcea9a214f90a5d581ffd31f378f9d32-00b75.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/ElEQVQoz62SRw6EMAxF5/5n4hCIHUgIJIroRfTq0bfkKJTZTTYGO/l+38nnPE/Sl/5//77v1fNS+0iy73uVHMeR1nV9Fdq2TdUR7+IseBwH+b5Py7JwIY5japrmQrnvO0c0DoKA2ralMAxJzitCvTsKIqJ/Y0VRRGVZPiwDAjDiSBGmacpxGAYyDINM07wIVlVF0zTxPgjAhed5LFgUhXKgZggCdIGgZVnkuu5lfqCD3SRJyHEctmvbNgtmWcazfVj+dYsi2HXdow6IPM+vhLCKjjIH2LpfCmyBcJ5npoQ4yGRcilAOgUCSuEFYf3s2EKzrmueJ+Hg2/37YX3BwDcPMqhzJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Scaling applications&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Twitter_post_-_1-dcea9a214f90a5d581ffd31f378f9d32-48538.png&quot;
+        srcset=&quot;/static/Twitter_post_-_1-dcea9a214f90a5d581ffd31f378f9d32-bed0f.png 200w,
+/static/Twitter_post_-_1-dcea9a214f90a5d581ffd31f378f9d32-5fd34.png 400w,
+/static/Twitter_post_-_1-dcea9a214f90a5d581ffd31f378f9d32-48538.png 800w,
+/static/Twitter_post_-_1-dcea9a214f90a5d581ffd31f378f9d32-00b75.png 1012w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;In general, scaling applications implies scaling backend applications to serve an increasing number of users. Usually, it’s about how to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Increase Performance&lt;/li&gt;
