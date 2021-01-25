@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Random Presence]]></title><description><![CDATA[Random presence of my thoughts and learning...]]></description><link>https://prasans.info</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Jan 2021 19:38:29 GMT</lastBuildDate><item><title><![CDATA[Scaling Applications Using Micro-Frontends]]></title><description><![CDATA[Cross posted from  Archimydes blog This blog post is a summary of a presentation that I made at the Archimydes Mastermind Event that…]]></description><link>https://prasans.info/scaling-applications-using-microfrontends/</link><guid isPermaLink="false">https://prasans.info/scaling-applications-using-microfrontends/</guid><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Random Presence]]></title><description><![CDATA[Random presence of my thoughts and learning...]]></description><link>https://prasans.info</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Jan 2021 19:45:25 GMT</lastBuildDate><item><title><![CDATA[Scaling Applications Using Micro-Frontends]]></title><description><![CDATA[Cross posted from  Archimydes blog This blog post is a summary of a presentation that I made at the Archimydes Mastermind Event that…]]></description><link>https://prasans.info/scaling-applications-using-microfrontends/</link><guid isPermaLink="false">https://prasans.info/scaling-applications-using-microfrontends/</guid><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Cross posted from &lt;a href=&quot;https://archimydes.dev/fourthact/blog/scaling-applications-using-micro-frontends&quot;&gt;Archimydes blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;This blog post is a summary of a presentation that I made at the Archimydes Mastermind Event that happened on 17th Dec 2020.&lt;/p&gt;
@@ -72,14 +72,80 @@
 &lt;li&gt;Polyglot development and tech diversity&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;However, most of the microservices I have seen are as follows&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/nuebx9g3wdu3majah2vb.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Twitter_post_-_2-04d6c359f40f0bcce3609c6c14ac83a6-00b75.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA8ElEQVQoz5VSWwqEMAz0/hdRPIYICuqnogj6JfhWUMT3LClU6mNlNxCaSdI4mSrt+w4yOnnMMbd5npk/1URMp3RNTNOEZVkYppNw27bMx3HEuq5HjZywSEYSQZZlUBQFlmWh73vYtg1Zllm+aRqoqgpd10+1JEmOgYwhD7ZtQ1mWrDEIAnRdhyiKYJomiqJAXddwHAeu67KBcRzDMAykaXqSTHrS71+7MRSTpAmx5awJk46kH2kmbsT7Hh/lWuAxXcrzHFVVHQ8i9l/vfl2ZY/pdfN9HGIZs+NvKt4FPX6R1Pc+DpmkYhuE/hm+Nv/Z8AACPCrrCVWIGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Microservices&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Twitter_post_-_2-04d6c359f40f0bcce3609c6c14ac83a6-48538.png&quot;
+        srcset=&quot;/static/Twitter_post_-_2-04d6c359f40f0bcce3609c6c14ac83a6-bed0f.png 200w,
+/static/Twitter_post_-_2-04d6c359f40f0bcce3609c6c14ac83a6-5fd34.png 400w,
+/static/Twitter_post_-_2-04d6c359f40f0bcce3609c6c14ac83a6-48538.png 800w,
+/static/Twitter_post_-_2-04d6c359f40f0bcce3609c6c14ac83a6-00b75.png 1012w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Independent deployments ! == Independent releases&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Teams are able to develop and deploy backends independently. However, they need to wait for the frontend to be developed and deployed.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Enter Micro-frontends&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Micro-frontends are nothing but taking the concept of micro-services to the frontend. Slice the frontend of the application to respect the module boundaries of the backend, and create an end-end independent release path.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/9d2qmlu0vjmlmewy8okz.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Twitter_post_-_3-44df98385af2eb394f375017a0f1daae-00b75.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHklEQVQoz31TbctEQBT1/3+H4meQ5ANRRG0hREnIy27r/W731ojZfZ5T0507Z+a4nRPhOA5AYGV71jMsy0LrF3ftsQr8wTzPsK4r9Vix77qO1jRNsG3b7SPYX4cRrk1ZliDLMpimCeM4UpUkic6bpiFO0zQYhgEMwwBRFCFN01OQJmSbfd+hrmuwLAsejwcJxnFMD6uqIkHkPM8jwTAMQdd1KIriZpnA+8f78x94/88J+UM2MQI9Qu/e7/fpF3L8/a9Q2EV8zMTQ9NfrBX3fQ9u2ZMOVw8B40VvK6FMQBGQ0Aj30fR+ezycl7rouRFFEXJIk1GP6V42bIJK2bZP5iCzLQFEUShkndxyHQkLkeQ6qqlL9EvwVzK/11w9w5T5F6QL7zdxZQgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Microfrontends&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Twitter_post_-_3-44df98385af2eb394f375017a0f1daae-48538.png&quot;
+        srcset=&quot;/static/Twitter_post_-_3-44df98385af2eb394f375017a0f1daae-bed0f.png 200w,
+/static/Twitter_post_-_3-44df98385af2eb394f375017a0f1daae-5fd34.png 400w,
+/static/Twitter_post_-_3-44df98385af2eb394f375017a0f1daae-48538.png 800w,
+/static/Twitter_post_-_3-44df98385af2eb394f375017a0f1daae-00b75.png 1012w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;All of Microservices’ promises + Independent releases&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -110,12 +176,79 @@
 &lt;p&gt;End users don’t care about the tech used. Their experience should not be affected due to tech.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Composing multiple frontends into a single application is one of the first problems that needs solving when choosing micro-frontends.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/kjkuca7j5cmgwv1xrv2j.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Twitter_post_-_4-4b9e25a824b3ffff673f86f228edce14-00b75.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABGUlEQVQoz41SQU/CMBjl/x884cGzJxMOO2AizrEDHghxImFDB1kyNEAgMdFsOrqt32PtGC5bg3tJm359X19fv34tKEBEtVg1ylyBVu1gyuU66Dxge9VRHqperBQ83ZymMv6+ucfm4hqUk3IvjmNEUYQwDJViNYcyoTQLpDx3bBgGLttt3PV6ME0Tuq43cyjwGRO+EpLO+FGwe9vF8PkJrzMH3nwBTdOwZ6yZoBVwTIPs6cSlYJKVwR6/AFMPvxm/Yj8YjS2w/RnBUqmQ8L8EnomK6HEwgG9N8L7Zwl+v0Df7YE0cFuTIe4O3W58S/eUSE8eWT3ZsG67rnm8bopwUjgQ0Z4jZ7iN3eazjf/2q/OVqYrEWotWhcngAfjYH/1UxM5UAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Composing frontends into single app&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Twitter_post_-_4-4b9e25a824b3ffff673f86f228edce14-48538.png&quot;
+        srcset=&quot;/static/Twitter_post_-_4-4b9e25a824b3ffff673f86f228edce14-bed0f.png 200w,
+/static/Twitter_post_-_4-4b9e25a824b3ffff673f86f228edce14-5fd34.png 400w,
+/static/Twitter_post_-_4-4b9e25a824b3ffff673f86f228edce14-48538.png 800w,
+/static/Twitter_post_-_4-4b9e25a824b3ffff673f86f228edce14-00b75.png 1012w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Composing front-ends&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We can achieve this composition in 2 ways, let’s go over the pros and cons of these approaches.&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;Build-time Composition vs Run-time Composition&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Build-time composition&lt;/strong&gt; is where multiple frontend applications are built as a single big application and served. This can be accomplished using &lt;strong&gt;npm&lt;/strong&gt; or &lt;strong&gt;yarn&lt;/strong&gt; packages.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/oti842ift4lgax80gzx4.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/build-time-composition-f0fb4d7cc463922016f9fde7b1fd9e2a-c541b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 29.375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABK0lEQVQY02WRO07DQBCGcxguwU24Aleg4gR0NCDRUUAHnZuIIoICkEAIIiQSAgpEIfFDdux9zI5/ZncdAWKksXYe+uafcQ9iN1d93F+eoyGgURpkLZjZl9C2Ldbm37895vDHev4zm32iKHL4miOCKQqYpgF33dbJIIt/gJZjUGvCYDhFpW0EknNQxog6C/JAgVkfNzWMqO4nxzg53EGpJABj7zHF1mAOV5UyaYXnjxwb2/t4mC47oEC0AIg4rGqrCqauJaeDgtvrCyRnR9AUFZ3ezbGbTLzG4C+pxebBBE8LE4GLLMUyy0KzBxqlwh3X2+UV4e1L/dx0VaLNUzBRXFk2e091WD0AXydjjMYjWKlbAWm5oevUxR/A/mBxgMTOsbiTFHcipIdduOk3Hm7LkR8jx+cAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Build time composition&quot;
+        title=&quot;&quot;
+        src=&quot;/static/build-time-composition-f0fb4d7cc463922016f9fde7b1fd9e2a-48538.png&quot;
+        srcset=&quot;/static/build-time-composition-f0fb4d7cc463922016f9fde7b1fd9e2a-bed0f.png 200w,
+/static/build-time-composition-f0fb4d7cc463922016f9fde7b1fd9e2a-5fd34.png 400w,
+/static/build-time-composition-f0fb4d7cc463922016f9fde7b1fd9e2a-48538.png 800w,
+/static/build-time-composition-f0fb4d7cc463922016f9fde7b1fd9e2a-b70ec.png 1200w,
+/static/build-time-composition-f0fb4d7cc463922016f9fde7b1fd9e2a-c541b.png 1280w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Good dependency management, resulting in smaller bundles&lt;/li&gt;
@@ -127,7 +260,41 @@
 &lt;li&gt;Non atomic deployments&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;A Run-time composition&lt;/strong&gt; is where the frontends get integrated into the browser directly when the user requests a page. This may be done on the “Server-Side” or in the “Client-Side”&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/32r5lsxq4maapemmdfyw.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/run_time_frontend_composition_f5076854e1-5b84655c8d4cb2a3556246094e69d7f8-69b9d.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 46.70487106017192%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABVUlEQVQoz3VSu07DQBD0T1NT0dNTUNIgUaekQEFQISEiAUkkBHEePjvy43zvYfeM8zCw0trnvZvZ2Tkn+IkQH6F7H0QI+0q/0sbhc1ngIy2QbkossxIrUcV6wgBOF4EeJ/drnD8J+FZDWQ+jFGSWwVQVgnOR0FB9U3mkuYyE67wj894jGaoYz0o8f1WAszBtC6c1LGVblpBFAUsgpyQmjyO8TyaYpeJooqQna7XD3egSrl7Hb9U0kEKgoWRCQ+pqrska0/kCVxdnuLk+xSJdxPOsjrl2hLJVeBjfEkiiajT8gWpLZJrUMojT+UDm/PY5Eg5HdgS2tktPax61Xq3gddeEbejQrAi7xj3H7lKi2cZA5DlqSZ4pQxhSJCV3ifs8vqL9nqDDhUh8RDhU2cdGZHh5e6WL4Jt15GkGT03/Ox8Jhx4cKt5ut5jNp/RL+GjBX//mML4B11i8w7rxgAkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Run-time composition&quot;
+        title=&quot;&quot;
+        src=&quot;/static/run_time_frontend_composition_f5076854e1-5b84655c8d4cb2a3556246094e69d7f8-48538.png&quot;
+        srcset=&quot;/static/run_time_frontend_composition_f5076854e1-5b84655c8d4cb2a3556246094e69d7f8-bed0f.png 200w,
+/static/run_time_frontend_composition_f5076854e1-5b84655c8d4cb2a3556246094e69d7f8-5fd34.png 400w,
+/static/run_time_frontend_composition_f5076854e1-5b84655c8d4cb2a3556246094e69d7f8-48538.png 800w,
+/static/run_time_frontend_composition_f5076854e1-5b84655c8d4cb2a3556246094e69d7f8-b70ec.png 1200w,
+/static/run_time_frontend_composition_f5076854e1-5b84655c8d4cb2a3556246094e69d7f8-69b9d.png 1396w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Independent teams with independent deployments&lt;/li&gt;
@@ -157,22 +324,188 @@
 &lt;li&gt;&lt;strong&gt;State management tools&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;A global store in the application and all frontends using the same library to access the store.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/nnarg5aev72kj3giaw6x.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/state_management_tools_604f976fa9-7862b94899384ad8287a5e271739d360-7ca94.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 19.212218649517688%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAwUlEQVQY022PQQqCYBCFPVJ3aNUpukK7ll2gE3QChVaVGLRpYQsrMDKLIsoK+7NUKEnsl99XJopG32aYN8x7Mxw+RFGEtBpLF5eDl/Qs0VngwxuL8OQ2QH3kye/GcPnGIT7WUxsr5YbnncaTr07JDsd6GddaCSOhhU5/ALHXhaqqSSBj/w3NvYuZfIKunPFwg+yK0DZhNauwGhUYkyH0zRYLbQ5CSHZdwTBOiNE0DTwvQJIkOK5TfCmkYPSFX9J5yhtRYSyw4YjsbwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;State management tools&quot;
+        title=&quot;&quot;
+        src=&quot;/static/state_management_tools_604f976fa9-7862b94899384ad8287a5e271739d360-48538.png&quot;
+        srcset=&quot;/static/state_management_tools_604f976fa9-7862b94899384ad8287a5e271739d360-bed0f.png 200w,
+/static/state_management_tools_604f976fa9-7862b94899384ad8287a5e271739d360-5fd34.png 400w,
+/static/state_management_tools_604f976fa9-7862b94899384ad8287a5e271739d360-48538.png 800w,
+/static/state_management_tools_604f976fa9-7862b94899384ad8287a5e271739d360-b70ec.png 1200w,
+/static/state_management_tools_604f976fa9-7862b94899384ad8287a5e271739d360-7ca94.png 1244w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Window events&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Another approach could be to utilize the window (DOMs) eventing capability. Below is a sample event.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/rjirff7pj01uas07g1gu.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/window_events_46783b22ad-0c13d93eb503d7bbe1a37e2138088e47-23ed4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 28.31541218637993%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABLElEQVQY023RMU/CQBjG8Q4iUNprK9DS0hIgNkYdUTBhtB/DClzPujgYmRwMSRO/sK126+PbCw4EL/nl7r3hn0tOAa3vnxKfH+94eU3BhYAgSVJLwEm9i/39nzRNEccxsiyrE6iqSlLq4SvPcR2GMDqnMJkGva2C6R0Ylo4+sUyGVquNZrNJe0tSVRWKouBusTgOFkWB25sZRq6NcBJgOvJxPvYxHQcIfA+e52IwGBzwPA+MMURRdBzM8wLz+QxD38GUgpOJTwJp6A/Rt23Ye47jwCau60LTNET3/wZzXF1ewNDbcPoWuhZD74zB7pro0dlgOmHyRbrWkSzTQuOkgeVyeRwsyxLb7Rs2fIWnZ/oEsZGE4EhJwmnmXFqvVtis1xD0aY8PMXa73UHwF739BRu5/AxqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Window events&quot;
+        title=&quot;&quot;
+        src=&quot;/static/window_events_46783b22ad-0c13d93eb503d7bbe1a37e2138088e47-48538.png&quot;
+        srcset=&quot;/static/window_events_46783b22ad-0c13d93eb503d7bbe1a37e2138088e47-bed0f.png 200w,
+/static/window_events_46783b22ad-0c13d93eb503d7bbe1a37e2138088e47-5fd34.png 400w,
+/static/window_events_46783b22ad-0c13d93eb503d7bbe1a37e2138088e47-48538.png 800w,
+/static/window_events_46783b22ad-0c13d93eb503d7bbe1a37e2138088e47-23ed4.png 1116w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;We used to communicate through common redux store and redux events as all the apps in our micro-frontends were using Redux.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;C) Design Consistency&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;One of the hardest problem to solve for is design consistency. &lt;/p&gt;
 &lt;p&gt;In our team, we addressed this challenge by forming guilds. Consider that there are three teams, and each team has a designer assigned to it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/0gdgsukkbzw6e1ok7nzc.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Twitter_post_-_5-12309f98c2127d257e245550ae52f0cc-00b75.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA30lEQVQoz62S2Q6CQAxF+f9fM3FlG4dFfBAQBWGAJ+A6NGJGXCLRmzRpz8Ntpx2t6zr00WvIf2HaUPzDsJc2BqqmMppQ7RIEAcIoQlGWME2TmOM4SE8nXNIUbLslxhiDKHIkxxie5xFr2/bZcOe6mHEXyzCGuV4RszhHvNJxNmzotk1sI/NsP0foLcD4B0Pf93EII4iqgqHrxLg0PCcJ8iyDfTO0LAsiz2hCVw7xcJTxDitpVsonD117CVmXkqusKATqun69Q7VD0zQU6hW/YXfDcYdXl5vCtHd/a2oMHlcVmw49Si0NBgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Actual team structure&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Twitter_post_-_5-12309f98c2127d257e245550ae52f0cc-48538.png&quot;
+        srcset=&quot;/static/Twitter_post_-_5-12309f98c2127d257e245550ae52f0cc-bed0f.png 200w,
+/static/Twitter_post_-_5-12309f98c2127d257e245550ae52f0cc-5fd34.png 400w,
+/static/Twitter_post_-_5-12309f98c2127d257e245550ae52f0cc-48538.png 800w,
+/static/Twitter_post_-_5-12309f98c2127d257e245550ae52f0cc-00b75.png 1012w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;We formed a guild comprising of all designers and some interested developers. They encompass a virtual team. They take all the design decisions and make sure their respective teams are abiding by the central design tenets.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/f2gurgtccs3kcmmrn941.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Twitter_post_-_6-17c6802b76dc82207a2cfc3ef9315cc2-00b75.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCklEQVQoz61SyY6DMAzl/79t4AADB5YBUVUCAWEVi4C8Yk9DM6inUS1Zju2XFy8xpJT4lJIYuIhK6PZ6Scdy7KlSEVJw3/e3ZO8e1LEku8IeauiJcRzhui6fHcfBtm1IkgRlWaKuawRB8IfcPTDDOABVDYj2VWHXdWiaBvM8w7IsBpumyYS+7yPPc1RVBc/zOJdlGdvv5IYhd9CGDpq8es0wTVNEUcRl27bNCbLkx3GMoigghEAYhtzu1/HY0R9+xpnbjaIQt/v9l1C1PE0TV8ozec6Iql6W5ZwXddC27TnL5fCFqNH3PSTdUYSk1B6pvtF1XU9ytQwdQz5hVAz6lq/f5j8i1ZY/+bEf0KQOTh0/RGcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Guild1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Twitter_post_-_6-17c6802b76dc82207a2cfc3ef9315cc2-48538.png&quot;
+        srcset=&quot;/static/Twitter_post_-_6-17c6802b76dc82207a2cfc3ef9315cc2-bed0f.png 200w,
+/static/Twitter_post_-_6-17c6802b76dc82207a2cfc3ef9315cc2-5fd34.png 400w,
+/static/Twitter_post_-_6-17c6802b76dc82207a2cfc3ef9315cc2-48538.png 800w,
+/static/Twitter_post_-_6-17c6802b76dc82207a2cfc3ef9315cc2-00b75.png 1012w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;Initially, the guild created a style guide for the application. Mainly CSS and the application teams copy-pasted it from the style guide to build components.&lt;/p&gt;
 &lt;p&gt;As we developed more features, we started pulling out Higher-order JS components and made them sharable. This is more of an evolution and works well once you have a stable design system in place.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/i9ods0luts42xf037th4.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Twitter_post_-_7-5e0d3f19f6dba5d943a8d61da9c9b4cb-00b75.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABeUlEQVQoz22Sz07CQBDG+8YeNBpBTQyaeDLx5gsYLxz0RTQYSQMCFagtpAilLdDudvdzttvCBpxksu23nV/nnwUyKeWBkwp1SAGIHOD0wrd3OkbQY+WlDMsEovISpk4gJRcwrYLum5It81I9qlAhtBaFHPdHLh6vZ2g4K5z0E8wyDc/om2Em4ZD3U4ko1wkUGS7mc9jttqaOfSoxL4EMT3cRnh9WuO0uUBvECDJ916HELybATQDU6HxZyl3Jv1EM2/kCgg/4dqcACiHAWAY/cDCdDRH5HlW/pip0Uz/XAnWX4Yp+cva9RjM0MlzyHOOUUeczvLVa4JwjJyhjDL3esPDxzwSp0lVfck5AifNRitP3EY67IZrLElgMhLJJ4hjzRYh0s9n2VEFd14fnTYuMlYmy510q+ZJKbUyBOp2vZskKqoJVZiqwGpTSPG+CMIyKQZkrxeRuKINsbyiH49dABU+SVQE29d1mSMO1bv2/1Ie7tq9LY6nNxf4Dk+8DCI+fxG4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Styleguide&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Twitter_post_-_7-5e0d3f19f6dba5d943a8d61da9c9b4cb-48538.png&quot;
+        srcset=&quot;/static/Twitter_post_-_7-5e0d3f19f6dba5d943a8d61da9c9b4cb-bed0f.png 200w,
+/static/Twitter_post_-_7-5e0d3f19f6dba5d943a8d61da9c9b4cb-5fd34.png 400w,
+/static/Twitter_post_-_7-5e0d3f19f6dba5d943a8d61da9c9b4cb-48538.png 800w,
+/static/Twitter_post_-_7-5e0d3f19f6dba5d943a8d61da9c9b4cb-00b75.png 1012w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;And also, since the teams were using the same frontend framework (React) it was easier for us to build this component library.&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;D) Testing Strategy&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Deciding on “How to test” is important. Since it’s a relatively newer paradigm and there are lots of moving parts in the application.&lt;/p&gt;
@@ -181,16 +514,117 @@
 &lt;li&gt;&lt;strong&gt;Integration tests&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Having a lightweight “Consumer Driven Contracts” (CDC) helped us a lot.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/6ougrsukadzdp0zuixsn.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/testing_strategy_1776956c37-344056a225a00025dc16a9442ae63499-2b3da.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.547683923705726%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABfklEQVQoz31ST0sCURD3S3Tqz6FLFzsE1cHsIxT4KYKgqED6ANWhcxTmuX8iFaWsEEh4kmgh9GDkIbJctFJXVt1d3+57v3bdVdx2a+DHvDfz5jczb8YHD2GMObSqSSC6PLBZduYVCt/fhAyU0d49ldsH/xrvnSnVHclchP2MDlA6CCx/P2EvtoCDRAiyWrNIjUTD74cr96xwWCLJXYSjIWxFlnGbPbWCQV0d9Yl9WrMBVSihWxWgVspghKCVywP1TyR4AdNrKQS27zEfThv6DoVSA4RoECUFUltFW+46K9Q7LRCxBpPY1FTXwUQRUl3E0g4H/+oFZjfimNuMY2rlDOvRDEiXoGkQmmQdhTjadrWs286jggD/eRaL1zwCl489BK94zMQekKmIduvuzXAMRafW3+SrdUxGOIwaGDcwZmPimMPIYRLBkzREWbUHxLwrNC/UdhRrTdw8vyH18g7uF1LFD8NXwldb9lwf319L3ZeOLENVFSiKAqqRf9+a8gO9ReLeTbZULQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Integration tests&quot;
+        title=&quot;&quot;
+        src=&quot;/static/testing_strategy_1776956c37-344056a225a00025dc16a9442ae63499-48538.png&quot;
+        srcset=&quot;/static/testing_strategy_1776956c37-344056a225a00025dc16a9442ae63499-bed0f.png 200w,
+/static/testing_strategy_1776956c37-344056a225a00025dc16a9442ae63499-5fd34.png 400w,
+/static/testing_strategy_1776956c37-344056a225a00025dc16a9442ae63499-48538.png 800w,
+/static/testing_strategy_1776956c37-344056a225a00025dc16a9442ae63499-b70ec.png 1200w,
+/static/testing_strategy_1776956c37-344056a225a00025dc16a9442ae63499-2b3da.png 1468w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;A CDC is where the consumer services’ give some tests to the provider service. A provider has to run all of its consumer services before publishing an artifact for deployment.&lt;/p&gt;
 &lt;p&gt;This doesn’t need to be very complex and can be done quickly using some lightweight options without using any big frameworks. But then, it’s all case by case.&lt;/p&gt;
 &lt;p&gt;In our scenario, Frame was the consumer of all the services and it shared a simple JSON contract and a small JS test with all of its providers. This ensured that the frame wasn’t broken when a service deployed automatically.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/pmwz1mfgqeyxdc0ojfwc.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/sample_of_frames_contract_025a143c30-b11b57517a25633c91a872e0891a38d3-cda1a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 41.56729131175469%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABJ0lEQVQoz5WRQWuDQBCFc/CSNQaNFETTbHY1URNNQkvoIYH+jxQLvVXIoff+XBUvMdL2HF9XSQ6BFszA480uzMcMr4NzVVXV+Nf3Dz4/9njfv+ElihBd6RW73Q5xHKMoiqu5S3Uuzel0avxwKECHFpQ+gSwTkG4XMhFOulB6MiRJgmVZSJLkau5fYHk8wnYmAmpivZjCYSMsPI7AZc17aBrwPA9ZlrUDHgWQcxumcYfHwEbojjG+t7DyGR7mNmxqYjbzkabpbUBLAJ/XPp6WE7Edx9Ln4HSIwUCD605vAzriZF3XsZrxBujaIzABMwwDqlYD3fYn1+lRSqGqKjQxrAnvKX0oQvUfEQExxtpvWJYlNpsNgiBoND97rTAMm0C22y3yPP8T+AvTecOjGsC0NwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Frame test&quot;
+        title=&quot;&quot;
+        src=&quot;/static/sample_of_frames_contract_025a143c30-b11b57517a25633c91a872e0891a38d3-48538.png&quot;
+        srcset=&quot;/static/sample_of_frames_contract_025a143c30-b11b57517a25633c91a872e0891a38d3-bed0f.png 200w,
+/static/sample_of_frames_contract_025a143c30-b11b57517a25633c91a872e0891a38d3-5fd34.png 400w,
+/static/sample_of_frames_contract_025a143c30-b11b57517a25633c91a872e0891a38d3-48538.png 800w,
+/static/sample_of_frames_contract_025a143c30-b11b57517a25633c91a872e0891a38d3-cda1a.png 1174w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Functional tests&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is one of my least favorite testing methods, however, like everything else in tech, it does have some staunch supporters and followers. In our case, we only had a few critical and successful user journeys automated using Selenium for functional testing.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/3pyn3j490o6xmswmuyjm.png&quot; alt=&quot;Alt Text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/functional_tests_6cdcf7c24a-dab360aa311fc2a773dc2bb2ef1973c4-231f4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50.588235294117645%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABoklEQVQoz3VSS0sCURT2P0T7oE2LiiAqo5/QPmhR0KIWEYlUFLVq0b7CNipERE8hiSKyN0ER0tskyx6LikBzyFLncefO173jjE5mH3zc1znnO+fcY4MFmqbl9iqVkUg9my8ohGlrXTlt1gMH+UoCGYrn+Bm8+21IS0nwJ4UQEJWCEBVUVdkd1X0opb+C/gkoRu4g3lxi9qAHIzOV2L2YAFGAmPAN4TPN1hSKwfS3WQtSmTLHUTSIHlcrBtwd6Pd04fXjXb+n3JI5hnd2EH07hpJJ4yx8DiEl5DPUs+PGhoKQzKB5dBe1fdtoGtpDVW8ATm8wK2jYhAaHcesfQ4wJeaa9iCfivwNyVZX1gmNy9QIVnXOwO32ocyyh3rGM6u4FHIZesj3W1VklRAb3UBWSL1kzSjaVoyw7+8op6hkbDDb6T1HjC6JlK8SCaUbpWVp/P9dDs2SeZfvaCUqn1lHuCaDMvZkjP5e41jAejBgjRXMfaf3QfMkMSUnGYugRS4yL13x90vcm568esHH/8mf+CmEr9kgUGaIosjbJkCTp3xEphh9hs9u9D3stZQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Functional tests&quot;
+        title=&quot;&quot;
+        src=&quot;/static/functional_tests_6cdcf7c24a-dab360aa311fc2a773dc2bb2ef1973c4-48538.png&quot;
+        srcset=&quot;/static/functional_tests_6cdcf7c24a-dab360aa311fc2a773dc2bb2ef1973c4-bed0f.png 200w,
+/static/functional_tests_6cdcf7c24a-dab360aa311fc2a773dc2bb2ef1973c4-5fd34.png 400w,
+/static/functional_tests_6cdcf7c24a-dab360aa311fc2a773dc2bb2ef1973c4-48538.png 800w,
+/static/functional_tests_6cdcf7c24a-dab360aa311fc2a773dc2bb2ef1973c4-b70ec.png 1200w,
+/static/functional_tests_6cdcf7c24a-dab360aa311fc2a773dc2bb2ef1973c4-231f4.png 1360w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;These journeys cut across multiple services and hence are harder to develop and maintain. Some of the FAQs I usually get on these tests are&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;FAQs&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
