@@ -1,4 +1,229 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Random Presence]]></title><description><![CDATA[Random presence of my thoughts and learning...]]></description><link>https://prasans.info</link><generator>RSS for Node</generator><lastBuildDate>Sun, 04 Apr 2021 08:46:56 GMT</lastBuildDate><item><title><![CDATA[Slicing Microservices]]></title><description><![CDATA[Cross posted from  Dev.to blog Building applications using micro-services are becoming a default go-to architecture these days. I have been…]]></description><link>https://prasans.info/slicing-microservices/</link><guid isPermaLink="false">https://prasans.info/slicing-microservices/</guid><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Random Presence]]></title><description><![CDATA[Random presence of my thoughts and learning...]]></description><link>https://prasans.info</link><generator>RSS for Node</generator><lastBuildDate>Thu, 10 Jun 2021 06:45:14 GMT</lastBuildDate><item><title><![CDATA[Micro-services Patterns Saga - to music or to dance?]]></title><description><![CDATA[Cross posted from  Dev.to blog What is a Saga pattern Saga design pattern is a way to manage a single business transaction that spans across…]]></description><link>https://prasans.info/microservices-pattern-sagas/</link><guid isPermaLink="false">https://prasans.info/microservices-pattern-sagas/</guid><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Cross posted from &lt;a href=&quot;https://dev.to/prasann/micro-services-patterns-saga-to-music-or-to-dance-4hio&quot;&gt;Dev.to blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;What is a Saga pattern&lt;/h2&gt;
+&lt;p&gt;Saga design pattern is a way to manage a single business transaction that spans across various micro services. Saga pattern breaks a single business transaction into a sequence of local transactions that updates each service and publishes a message or event to trigger the next local transaction step. If any of these local transaction fails, saga will execute the subsequent flows to  rollback and cleanup the transaction.&lt;/p&gt;
+&lt;h2&gt;Why do we need this&lt;/h2&gt;
+&lt;p&gt;In a micro-services architecture, it’s hard to trace where the transaction has failed and what needs to be rolled back etc. Saga brings in a structure to deal with this problem and also allows the micro-services to act within the specified boundaries.&lt;/p&gt;
+&lt;h2&gt;Implementing Saga&lt;/h2&gt;
+&lt;p&gt;Saga is implemented by adding a &lt;code class=&quot;language-text&quot;&gt;transactionId&lt;/code&gt; to all the local transactions. A &lt;code class=&quot;language-text&quot;&gt;transactionId&lt;/code&gt; represent a single business transactions, so with that as an identifier it is possible to trace all the corresponding service interactions.&lt;/p&gt;
+&lt;p&gt;This managing of local transactions can be done in 2 styles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Orchestration style&lt;/li&gt;
+&lt;li&gt;Choreography style&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Orchestration Style Sagas&lt;/h2&gt;
+&lt;p&gt;Orchestration pattern mimics an Orchestra, where each person (system in this case) waits for the conductor (another system) to give instructions on what needs to be done.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/orchestration-d523bc81bb86c917db33202ba79ecb46-8fa79.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 121.5633423180593%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsSAAALEgHS3X78AAAEiUlEQVQ4y11VTW8bVRTN/4I93bEr/wI2CCQqViCE2AACNiwjsUWghLakSd00aeImseOvxEkdO7bjsT0fjj2ftsczczj3vUkCLK5s+c2cd8699xyvZVmKZD5hOUhCE6vAAJZjIGat8s+7Wg7vv6+8LlZ+n++MkEQ2y0KWJVhLFrdIfQNZMEbqEWxh47y8h8PCU+xtb2B/ZxOF53/g7estlA8LeLW1geP9bSS+iYwEUlYWkZDXJ5kBAckuC22AlYUTsvJhdJpolIsoHxTQKB2oqh7vo92sEewlaicHBLkF5lPWjCQ8DRqZBCRdYQf+IA/EnqXAEfPh1GP5urDkZ8AL+VvE9nimeifL39OANgHZg8xnRQRYzOCNrlCvHmFmXqsXU0pLeZaGWsly0ket8hbW4IrP32rAhYtsfqtmsCa6UzLM5i4BbIymLr4/iXHWp5Q5wSgpEwaBMLJgTaf4sRSj2uXzS0dddi+Z5NZkUtLYJJyq6T5vRvjomzbeHJIhZliFBCZY4lvq/GUrwmOeF/a6D+dyKdknwVAAe5Q15IRIPbPwS8HH+x+X8dO2CS9gv4Q9AVfS22SM9cMQ731SwXebN3BD9pZSs9BRgLJyaytPA6Yhpxbfom24KBzd4LdnDTimpWTLikghdlBqdLFbGmLrxMRgYKk1U4CUvPJvcsnBiHI8sjBhdaoYdWo4e7uNSe+Ml3EDwrHqn2f20Chu87wK87quweQ8us0B+7lkWU7ZKQ7FNro4Le7CG3dg9y8weHcKw/Nx3W3DHbbYLgu1UhFm74IXmXqHBZDSRW3OMN/DxUz1BL70TeRYuBpP8cVWhN2qRcYNVE4OcVktYuH0FAGRi3wTYu86B2QP70avJKgh8HNuYKe1wKPPz/HnTo9rd41Xf2/g7HgX8cxQeyrM1B7y3djtPEhWtwQaTG5WbskcrL828eGXNXy7aeDsqodxq4xRu06njLVDxHp5D2O3/SBZ9YKJI327OH2DVv0ILl1zXjmG48zwar+O1nmDTunCp4tCZ8BBulqyKCPTB0Df0D2UXaKUi0oRnfMSus2yHpb4OrbhdOs43nuBvZ1n8OyBtp70OvdyDtjTayO07+Tys98scZNsxSL1JNpG6rx3WeVA+vw9f156qELC+R+gmF9uW05R7vQwGg1UlEk4QMJDhkVG0WSAcruHSKwa6YVGvtgPgHdOWU7QHAd4sjVHpS3mt3JmZBiQ7cJB2wnx5MUcxSafTyba4/9lqJ2SRJxWOsHvtTkefVrD9r6EA3vqilMshodY08LTswgffNbAXwU5F3fk4axWrUvAcMhJWTo1mB6/7jFtvmri55cWTNtWlpN0XgWcZmJi/cDD468v8cOLMYa29G+s7KnDQf0FOIqu2if2bDw0UDmt4+DoHVzH0pPMwxVzGzPHRPW0ht2DJqaW7K2hDRE5/wpYWexlqAJiPh3C6TdVbEncqySX/49IOyJlz2RXVzNOem7p/6FlgNTt6XBI44A2ajEcDRWQWThSMhLJSO5nwkhK/MF9pSx17t3wvhv2f6jek/6lqxD/ALbdASj9LbbdAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Orchestration style saga&quot;
+        title=&quot;&quot;
+        src=&quot;/static/orchestration-d523bc81bb86c917db33202ba79ecb46-48538.png&quot;
+        srcset=&quot;/static/orchestration-d523bc81bb86c917db33202ba79ecb46-bed0f.png 200w,
+/static/orchestration-d523bc81bb86c917db33202ba79ecb46-5fd34.png 400w,
+/static/orchestration-d523bc81bb86c917db33202ba79ecb46-48538.png 800w,
+/static/orchestration-d523bc81bb86c917db33202ba79ecb46-b70ec.png 1200w,
+/static/orchestration-d523bc81bb86c917db33202ba79ecb46-8fa79.png 1484w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;I don’t prefer this design usually for the following reasons,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tight coupling between the conductor and the other systems in the ecosystem.&lt;/li&gt;
+&lt;li&gt;Conductor is a single point of failure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Choreography Style Sagas&lt;/h2&gt;
+&lt;p&gt;Choreography pattern mimics a dance performance where each dancer knows their role and can perform it independently. Hence, there is no need of centralised conductor role.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/choreography-af6100aef23ab7ef2cb971fcc148d5ae-8fa79.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 121.5633423180593%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsSAAALEgHS3X78AAAEwElEQVQ4y11VyZIbRRDVfwFn+ACWz8AH4AJccLBEcDAmggtHX+AAdmCwrfGEZ2Sb0YzHo0HLSBptLakX9Va9L6Ne1I+skgxjRyijlF3dr17my8yqVZsSZWpic8XIHJS0ovABREAVkPk78+g57W1csZbJCkWi07cWmY0i1lBtCtS4UwYLVImNTWwBa4Zpt4lG/R7Ojw9wdvQEzcNHaDz+k/wGGnt/oNU8QBnbqFJG31morlyUoUwHGFvAKjaAK49WDuhgJfXFx8P2CQHcJ8A6jg730G818fLoAL3WCYEQ+zUxX/M1JHBXMK0VkYpNpAHEEASc+ytUkbENexPSQQ4ZhVmGO4sFUBlZWxJkuPIF25JSUCvChQAU7OiEcDVGr3MK35xvfX0qfFeXCMijn4Zu5yUsjfzMF8y2gA6KSN4C8pArygkSE7oX4NZZjv6CmK0NsCDCj60MLyUKrXBg+hFut3J0luTnDjaJI8LmDPNAQi3ngJTYMqaNzEB9mOLDr6d4frwkpRka0xQffCvh4cGCfBf7I/K/meHwOfc9Utfdhk4puwZIskfEcGPhp8MI73zcxq09ymPG8OuLEG/d6OGruzKq3MOd4xhv3+ji+78UBFEgclwRyzcY8pKhGstdzFQfj48k3GtM4ZoGFN1D/e8ZHjQVmIaN5crFo2cTPDrRsNJ5uLbIY5W8AciVi605Ck8GW3SAgELOXHFIoA2QmhOqAFXkzZp3kFozKgRVACF1RNr+B0yZUDQwJMijNhaDFqm5Eioi86BLA0y6p/DUCQH6sOQJ5vSOuRjSd0wQej2HsSk2ioghDjzMZmPIyhKGoWKlLTEcXsAyVTBLFet43EXg6MjpfVB38JLh9prKnHYWGDBMhqHcw0AZoUOh9ZUepsYlBvMzXCzP0V+20JufYKmO4ZgWEm/XZSKHs10dCkCqdFLathmplyAkU1QFw9EYs8kQk1GfmA1IGAWe6yBwGRzmwGX2tRwKwCUpbIguSAIXhh1C1SwYuoXpTMbTxjPU6/v4p93DcfMEC2kBXVvBYwTouFtB+YB4JYpoPZ7DLCLmOmJbwbR/jsiW6RAXWWhBky7puSwmTMpkEq6DmKlImEL9b74uimDIQ85CofLisg25f0oloQmFU0eDMT7Hon8Gl/LGnwfqCKtpj6wr2lWIIgB5yNTQPORtk9PkqCKcSzLlyRKAuaeiNZGQ5wnt21RJK5zPFRQZn0TWrg7ZtZAjnkOdpnUgqr5vxPh8/wqtMZ/QBiQ7wpdP1mh0eWvaGNspvqD94z75ORNpgAj5FWBM85BolwkVcclwt5PivU+6eCyan6E+SPHuZxf4bY/GFQLc75H/6QUeNHbDITSvMaSQS16Y5BQckKbJz88SfHRziNtPLKQhw+9nEd6/OcJ3Dw2EAcMvx77wf9g3sbKol+lO4SOMNwcXuMYvJXE38PzlAQxNQbt9gaPTCWLPhkt11+kOcPRiDN/SETmG2H/aHMAzDXFlVLuQ+WX3nyjIYqH0mkqH8Z7lytO4X/smbGVMlyCpXoRibtryCKWvCJ+PLqofui0U8GhrmzwCL50ypmuRkloGU9okVT2aLu5I+FU4Ff8zl5fNhHyJptJ2n6/ixgvm2BQp/gW0gfJU/30HDgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Choreography style saga&quot;
+        title=&quot;&quot;
+        src=&quot;/static/choreography-af6100aef23ab7ef2cb971fcc148d5ae-48538.png&quot;
+        srcset=&quot;/static/choreography-af6100aef23ab7ef2cb971fcc148d5ae-bed0f.png 200w,
+/static/choreography-af6100aef23ab7ef2cb971fcc148d5ae-5fd34.png 400w,
+/static/choreography-af6100aef23ab7ef2cb971fcc148d5ae-48538.png 800w,
+/static/choreography-af6100aef23ab7ef2cb971fcc148d5ae-b70ec.png 1200w,
+/static/choreography-af6100aef23ab7ef2cb971fcc148d5ae-8fa79.png 1484w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Some benefits of this pattern are,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Faster development. Teams can build independently, with defined contracts.&lt;/li&gt;
+&lt;li&gt;Loose coupling, easier to change systems.&lt;/li&gt;
+&lt;li&gt;Better fault tolerance. There is no single point of failure here&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;A Sample Scenario&lt;/h2&gt;
+&lt;p&gt;Let us walk through a sample use case and see how we can go about solving it using choreography style sagas.&lt;/p&gt;
+&lt;p&gt;Since we are talking about music and dance, let me take a use case of booking a movie ticket.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A customer can purchase a movie ticket by paying online.&lt;/li&gt;
+&lt;li&gt;Once the payment is successful, the movie ticket is confirmed to that customer.&lt;/li&gt;
+&lt;li&gt;If there is a payment failure, no ticket will be issued, and the order stands cancelled.&lt;/li&gt;
+&lt;li&gt;If the show is cancelled, the customer will be fully refunded.&lt;/li&gt;
+&lt;li&gt;If the customer choses to cancel a ticket, then they will be refunded a partial amount only.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Identifying Events and Commands&lt;/h2&gt;
+&lt;p&gt;Now, to implement them independently by various services, we need to identify the boundaries of various services and also their resposibilities.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.eventstorming.com/&quot;&gt;Event storming&lt;/a&gt; is one activity that the team can do to identify these events aka boundaries of responsibilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Results of the event storming looks like this:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I will be using the following notion to illustrate various commands and events involved in the above use-case.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/legend-09a5e69eb39e7e5dae873fedd4c93d09-ac0cc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 32.45149911816579%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABCElEQVQY021Ri4qDMBD0/z/t4EoVpahtD65aH72qWWN8JnMb2x4HdWDIQrKzOxMHGzDMWs4Q3cScQWpZ2fYaFQ2o2xFCaUyLeet1pJQgIhRFgbIsQUKgEYT4K0Ucx8jKGo0yqNoJ32mO5JrhkmbrfSU6DL3CMPCQuoZSCk6e54iiCEEQrMLGaHSq54aEBUOkWQleCNQb7PYejscTwjDEx6fLwyosMzvhPqthtZwty5qd3MSES/aDhq1fbwTvcMa9nXGn8UGpocYNy8YYaK1X2tpi4Zo4O8mbCc4uKRrsvAOKSoJjRcN3NuNx1o/Mnxr2fNvwJYp/gyxOpzP2rgvf99fMXt/39/6JXxY6zd05sFtVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;legend&quot;
+        title=&quot;&quot;
+        src=&quot;/static/legend-09a5e69eb39e7e5dae873fedd4c93d09-48538.png&quot;
+        srcset=&quot;/static/legend-09a5e69eb39e7e5dae873fedd4c93d09-bed0f.png 200w,
+/static/legend-09a5e69eb39e7e5dae873fedd4c93d09-5fd34.png 400w,
+/static/legend-09a5e69eb39e7e5dae873fedd4c93d09-48538.png 800w,
+/static/legend-09a5e69eb39e7e5dae873fedd4c93d09-b70ec.png 1200w,
+/static/legend-09a5e69eb39e7e5dae873fedd4c93d09-d134a.png 1600w,
+/static/legend-09a5e69eb39e7e5dae873fedd4c93d09-ac0cc.png 2268w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/booking-flow-12287a69e505740c4a7c310332083482-a6209.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 106.32111251580278%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsSAAALEgHS3X78AAADjElEQVQ4y1VV2ZLbNhDU//9ZKpVKKl5bWomneN8kblJ0OjOgJK8fugCSQKNnpjE8GWPgrMXqHKw1sPS8bSuqqsL5fMG3jw8/xkkKY1eC87BupfXrc7Rwfr/FiQmVWTEJjVkaLMoSHLpxQTfMWJYF0zRBzi02PcCpDqvusfKoemx2IQGbhyfURFj1AmXdohkU2tkhK2rUTYusbDEvAss8oM8uSOMAok1ghgz3JEAc3tCVAbbVYX0TaoO8HhHFKdKiR94sSLIKYZIhyRvwd60EhuKKexxBdBnGIkRbJKizCEMVQUqBx+MBjvaklMIgHEa54V6NuAQpRrVjkA/M+kGhMBw2kWOXFRHGiM9/YZ0y7KLEKir0ffcrh1prPzFcmHX1BHzIwqFy/sbpwDRiJkixwGgFQaOg7zPll9dxDo15EjIRV9k94YtAYS5qxrgMVLARkzwwy8kfzuGxEMarKD5kLgoTvsh4zgrjPEQQBpTfDJ1sEaUhzpcz0jKF1JQzisQLeeJNaL4QHkppTlUr+wLn60FQjAVCIvxBz0Wbk53atwAmepF6QvvM3Quv5A6yR09eu5NN/vz3DwT5DYPp/LtFHt7kyvKeI+xjPL1y8JWUFzJYKYfPedZG01ySL2fC8lZnLSt9hsyE/MFvppElCyEwjqPHMAy+wvyOIQnWKDKyPczszK/5U6knZAXiaRNWZJ9VdNZ5G3nV+09shsjbw8x2vGNqYvT1nZ5DupK9v9dkbE1qBmirYRx5kk7VNEpz2Ibn3DSmmVT2GbLojM/PKxEWyOIboihGcjvDyY72bsfVq9oSrWgwigHd0qKealQNvetblG2BvMroeulDxUBdh8ia5Aey6990W2psc+abhVfINhnmnnwXoyxKIihRkGWu4RXJPUFwDzCrCTuF7FitGrBS6Iq6j6SDnRoJ1IWMfBaF8qScQN5myHPy2NShEx2iJEIQBLglV0y0aX/sXsG67VT9hx/XBx2yHs/OvW3jKF8LmqX23kvrFN+D715xXueIy8ibWQhJygQpa2BpndMj9cVDnSEBzmpvIe9DLgSrmGhB2eUI0iv1xRqzGbFQeFJL3wS64oYkDtFXKeWuQhRccL1+Ir59+APehC9jv8y671/uKb9bN9/C3EI5TimnFIUgy7QUxdTkvumyUv4lnL7ex99vzO+3x/F3av0/dYtdNchu/xDxDf+pAg/qi84qr/B/hHdBuA+8nJUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;booking-flow&quot;
+        title=&quot;&quot;
+        src=&quot;/static/booking-flow-12287a69e505740c4a7c310332083482-48538.png&quot;
+        srcset=&quot;/static/booking-flow-12287a69e505740c4a7c310332083482-bed0f.png 200w,
+/static/booking-flow-12287a69e505740c4a7c310332083482-5fd34.png 400w,
+/static/booking-flow-12287a69e505740c4a7c310332083482-48538.png 800w,
+/static/booking-flow-12287a69e505740c4a7c310332083482-b70ec.png 1200w,
+/static/booking-flow-12287a69e505740c4a7c310332083482-d134a.png 1600w,
+/static/booking-flow-12287a69e505740c4a7c310332083482-f6ead.png 2400w,
+/static/booking-flow-12287a69e505740c4a7c310332083482-a6209.png 3164w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cancel-flow-9ebbd69bae889a1e1fa23c72d6d15912-dfe0f.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 78.97503285151117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAClUlEQVQ4y21U23KjMAzN/39c+9DddDJJICFADDYXY2wMJHNWUtJmO9OHMwiwjnU50sb7gM466HaAaS1hEFuT3fYObhzhvQefizEK5nlGJPD3Uf55hBAwTRM2Ix3MihrJKYfuI2GCqhuoSkPpHs5H3O83IcrzHGVZIssysZlgXVfBsiwCIUzOOY7HBMbOqNqAU1Zgf0iQlRpXIl+WWZyZrK5rKKVQVRVGip7JJGK68EnooZoR18bjUlm8feyhiJTJzbCgVJrIAhZyvN1ugvv9Lk8meJHND0KpT4hUiwmD82jaXtB2VM+mwzAMPxz5+cAimOTb8kqZCeUwpdR1LaztqcBeoopzxHqjlJ63P2pFZJF8IjfBY5kDbmsk8CURG+4OH/ZEclEZCpVTM64wTst7qQoUVY5KK4nWmTOMOsPqM+aOnnUKcz1BF3tM5COEX+lc6gzbz0+cizP62OGQHrDb7XBIDqiMoqgi+uqEU5qiLjNgMiiylBp4RLrfwvfqJ6FqrzjmR+TNBe+fb/hz/IB2NWpXwYYeK9fJXTFWCZYuw2X3hvq8BUKFu82wePMi5LR1q2F6Des7SVM1V7J7QZi4biSfscUaWnHudYahyTHThZEwTwM2rC/p0JN0sAP6rhflMwF3cF1eWpvZJkTustgk+nl92suDkJ3CNBMiyWAWsD24URrBXf+SDHeZbfaLcfoexy9s3BhQ1h1yZWhKHiLPVYsLTUlRW1S1ISnZb519Rfob+N/GOhq90wXb7RaNW1F3E5L0hJQ6eUgzEfm6LE8h/072iPZJ6GhCrmYUJLnB+98jRelRGicjGCML+hXdb/gRYQg0cpS2HSdZWbwMOuvRD7zWRqrl9B0Fg5vF4HXmn6vL/7fC/gHKtMlQK2QI/QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;cancel-flow&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cancel-flow-9ebbd69bae889a1e1fa23c72d6d15912-48538.png&quot;
+        srcset=&quot;/static/cancel-flow-9ebbd69bae889a1e1fa23c72d6d15912-bed0f.png 200w,
+/static/cancel-flow-9ebbd69bae889a1e1fa23c72d6d15912-5fd34.png 400w,
+/static/cancel-flow-9ebbd69bae889a1e1fa23c72d6d15912-48538.png 800w,
+/static/cancel-flow-9ebbd69bae889a1e1fa23c72d6d15912-b70ec.png 1200w,
+/static/cancel-flow-9ebbd69bae889a1e1fa23c72d6d15912-d134a.png 1600w,
+/static/cancel-flow-9ebbd69bae889a1e1fa23c72d6d15912-f6ead.png 2400w,
+/static/cancel-flow-9ebbd69bae889a1e1fa23c72d6d15912-dfe0f.png 3044w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Once these events and commands are identified, teams independently can go ahead and start implementing them. Rollbacks are just another events mapped to a different command.&lt;/p&gt;
+&lt;p&gt;This gives a power to the team to act independently and reduces the bottleneck on a single service.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Slicing Microservices]]></title><description><![CDATA[Cross posted from  Dev.to blog Building applications using micro-services are becoming a default go-to architecture these days. I have been…]]></description><link>https://prasans.info/slicing-microservices/</link><guid isPermaLink="false">https://prasans.info/slicing-microservices/</guid><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Cross posted from &lt;a href=&quot;https://dev.to/prasann/slicing-microservices-1agj&quot;&gt;Dev.to blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Building applications using micro-services are becoming a default go-to architecture these days. I have been part of few teams that build and deploy micro-services in a large scale. &lt;/p&gt;
